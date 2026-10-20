@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SashaBarrera">
+    <title>MiauLove</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        
+        <!-- menu lateral -->
+        <aside class="aside-menu">
+            <div class="logo-aside">
+                <img src="static/images/cat-logo.png" alt="logo" class="icono-gatito">
+                <h2>MiauLove</h2>
+            </div>
+
+            <nav class="links-aside">
+                <a href="#" class="item-menu active">Inicio</a>
+                <a href="#" class="item-menu">Subir Imagen</a>
+                <a href="#" class="item-menu">Contacto</a>
+                <a href="#" class="item-menu">Favoritos</a>
+                <a href="#" class="item-menu">Recientes</a>
+            </nav>
+
+            <div class="botones-aside">
+                <button class="btn-aside">Configuración</button>
+                <button class="btn-aside btn-cerrar">Cerrar Sesión</button>
+            </div>
+
+            <footer class="footer-aside">
+                <p>Todos los derechos reservados. MiauLove</p>
+            </footer>
+        </aside>
+
+        <!-- contenido central -->
+        <main class="main-contenido">
+            
+            <header class="header-busqueda">
+                <div class="caja-busqueda">
+                    <input type="text" placeholder="Buscar..." id="input-buscar">
+                    <button id="btn-buscar">🔍</button>
+                </div>
+            </header>
+
+            <section class="seccion-bienvenida">
+                <h1>¡Únete y comparte tu amor por los gatitos!</h1>
+
+                <div class="categorias">
+                    <button class="btn-categoria active">Gatitos</button>
+                    <button class="btn-categoria">Juveniles</button>
+                    <button class="btn-categoria">Adultos</button>
+                </div>
+            </section>
+
+            <!-- tarjetas de gatos -->
+            <section class="galeria-gatitos">
+                
+                <div class="tarjeta-gato">
+                    <div class="imagen-contenedor">
+                        <img src="static/images/gato1.jpg" alt="gato 1">
+                    </div>
+                    <button class="btn-like">❤️ <span class="contador">1</span></button>
+                </div>
+
+                <div class="tarjeta-gato">
+                    <div class="imagen-contenedor">
+                        <img src="static/images/gato2.jpg" alt="gato 2">
+                    </div>
+                    <button class="btn-like">❤️ <span class="contador">2</span></button>
+                </div>
+
+                <div class="tarjeta-gato">
+                    <div class="imagen-contenedor">
+                        <img src="static/images/gato3.jpg" alt="gato 3">
+                    </div>
+                    <button class="btn-like">❤️ <span class="contador">3</span></button>
+                </div>
+
+                <div class="tarjeta-gato">
+                    <div class="imagen-contenedor">
+                        <img src="static/images/gato4.jpg" alt="gato 4">
+                    </div>
+                    <button class="btn-like">❤️ <span class="contador">4</span></button>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
